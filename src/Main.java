@@ -35,9 +35,12 @@ public class Main {
 
         float sumAverage;
         sumAverage = sum / month.length;
-        System.out.println("Средняя сумма трат за месяц составила " + sumAverage + " рублей");
+        {System.out.println("Средняя сумма трат за месяц составила " + sumAverage + " рублей");}
 
         // Задача 4
 
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i1 = reverseFullName.length - 1; i1 >= 0; i1--) {
+            System.out.print(reverseFullName[i1]);}
 
     }}
