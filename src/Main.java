@@ -38,4 +38,6 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила " + sumAverage + " рублей");
 
         // Задача 4
+
+
     }}
