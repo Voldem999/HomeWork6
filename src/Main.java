@@ -19,18 +19,17 @@ public class Main {
 
         // Задача 2
 
-        int maxMonth = 100_000;
-        for (final int current : month) {
-            if (current > maxMonth)
-            {maxMonth = current;}}
-        {System.out.println("Максимальная сумма трат за день составила " + maxMonth + " рублей");}
-
         int minMonth = 200_000;
         for (final int current : month) {
             if (current < minMonth)
             {minMonth = current;}}
         {System.out.println("Минимальная сумма трат за день составила " + minMonth + " рублей");}
 
+        int maxMonth = 100_000;
+        for (final int current : month) {
+            if (current > maxMonth)
+            {maxMonth = current;}}
+        {System.out.println("Максимальная сумма трат за день составила " + maxMonth + " рублей");}
 
         // Задача 3
 
