@@ -12,7 +12,7 @@ public class Main {
 
         // Задача 1
 
-        int sum = 0;
+        float sum = 0;
         for (i = 0; i < month.length; i++)
         {sum = sum + month[i];}
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
@@ -33,7 +33,9 @@ public class Main {
 
         // Задача 3
 
-
+        float sumAverage;
+        sumAverage = sum / month.length;
+        System.out.println("Средняя сумма трат за месяц составила " + sumAverage + " рублей");
 
         // Задача 4
     }}
